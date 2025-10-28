@@ -1,1 +1,11 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-primary: #f2eeee;
+  --color-secondary: #4b4747;
+  --color-hover: #000000;
+}
+
+body {
+  font-family: 'Quicksand', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
