@@ -33,7 +33,7 @@
 {/snippet}
 
 <section class="flex grow flex-col items-center justify-center gap-1">
-  <img width="230" height="306" src={avatar} alt="Olha's profile picture" class="h-[150px] w-[150px] rounded-full" />
+  <img width="230" height="306" src={avatar} alt="Olha's profile picture" class="h-auto w-[150px] rounded-full" />
 
   <h3 class="text-4xl font-semibold">Olha Pankiv</h3>
 
