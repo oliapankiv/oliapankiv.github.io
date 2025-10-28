@@ -7,7 +7,7 @@
   const links: Link[] = [
     { href: 'https://medium.com/@olia.pankiv', label: 'Blog' },
     { href: 'mailto:olha@pankiv.me', label: 'Contact' },
-    { href: '/', label: 'Resume' },
+    { href: 'https://cv.pankiv.me', label: 'Resume' },
   ]
 </script>
 
