@@ -14,22 +14,20 @@
   }
 
   const links: Link[] = [
-    {
-      href: 'https://www.instagram.com/_olha_13_?igsh=MTc2eHlsNGVqMHl1eg%3D%3D&utm_source=qr',
-      logo: instagram,
-      label: 'Instagram',
-    },
+    { href: 'https://www.instagram.com/_olha_13_', logo: instagram, label: 'Instagram' },
     { href: 'https://github.com/oliapankiv', logo: github, label: 'Github' },
-    {
-      href: 'https://www.linkedin.com/in/olia-pankiv-192ab5196?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-      logo: linkedin,
-      label: 'Linkedin',
-    },
+    { href: 'https://www.linkedin.com/in/olia-pankiv', logo: linkedin, label: 'Linkedin' },
   ]
 </script>
 
 {#snippet link(props: Link)}
-  <a href={props.href} class="px-2 transition-all duration-300 hover:text-hover" aria-label={props.label}>
+  <a
+    href={props.href}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="px-2 transition-all duration-300 hover:text-hover"
+    aria-label={props.label}
+  >
     <props.logo class="h-6 w-6" />
   </a>
 {/snippet}

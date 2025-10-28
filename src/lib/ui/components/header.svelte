@@ -12,7 +12,12 @@
 </script>
 
 {#snippet link({ href, label }: Link)}
-  <a {href} class="px-5 py-4 font-semibold transition-all duration-300 hover:text-hover">
+  <a
+    {href}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="px-5 py-4 font-semibold transition-all duration-300 hover:text-hover"
+  >
     {label}
   </a>
 {/snippet}
